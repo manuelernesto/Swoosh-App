@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SkiilActivity">
+    tools:context=".Controller.SkiilActivity">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -64,13 +64,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/beginnerSkillBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toogled"
             android:checked="false"
+            android:onClick="onBeginnerCliked"
             android:text="Beginner"
             android:textColor="@android:color/white"
             android:textOff="Beginner"
@@ -78,12 +79,13 @@
             tools:text="Beginner" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/ballerSkillBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toogled"
+            android:onClick="onBallerCliked"
             android:text="Baller"
             android:textColor="@android:color/white"
             android:textOff="Baller"
@@ -103,6 +105,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
         android:background="@drawable/swoosh_button"
+        android:onClick="onSkillFinishedClicked"
         android:text="FINISH"
         android:textColor="@android:color/white"
         android:textStyle="bold"

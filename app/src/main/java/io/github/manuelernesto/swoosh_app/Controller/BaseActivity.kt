@@ -1,4 +1,4 @@
-package io.github.manuelernesto.swoosh_app
+package io.github.manuelernesto.swoosh_app.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

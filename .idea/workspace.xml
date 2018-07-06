@@ -15,9 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a72e76-065e-42b2-90d3-843aae8d7f20" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/BaseActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/SkiilActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/FinishActivity.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Model/Player.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Utilities/Constantes.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_finish.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -30,9 +31,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/BaseActivity.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/SkiilActivity.kt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,81 +54,31 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Swoosh-App" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt">
+      <file leaf-file-name="LeagueActivity.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/LeagueActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="593">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
-                <element signature="e#44#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_league.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="e#2085#4073#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeagueActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#44#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_skiil.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkiilActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/SkiilActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/BaseActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-229">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="e#44#140#0" expanded="true" />
+                <element signature="e#55#382#0" expanded="true" />
+                <element signature="e#1054#1173#0" expanded="false" />
+                <element signature="e#1366#1485#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,6 +90,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -2251,10 +2209,19 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/swoosh_btn_checked.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/swoosh_toogled.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/BaseActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Constantes.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/SkiilActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_finish.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Model.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Model/Player.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/SkiilActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Utilities/Constantes.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/FinishActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/LeagueActivity.kt" />
       </list>
     </option>
   </component>
@@ -2280,8 +2247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2303,26 +2268,37 @@
             <path>
               <item name="Swoosh-App" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swoosh_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/layout/activity_league.xml&#10;Lea&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt&#10;col&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/values/colors.xml&#10;st&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/values/styles.xml" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/LeagueActivity.kt&#10;L&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/LeagueActivity.kt&#10;S&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/SkiilActivity.kt&#10;Fi&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/FinishActivity.kt&#10;sk&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/layout/activity_skiil.xml&#10;Lea&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt&#10;col&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/values/colors.xml&#10;st&#9;FILE&#9;file:///Users/manuelernesto/Developer/Android/Learning/Swoosh-App/app/src/main/res/values/styles.xml" />
     <property name="device.picker.selection" value="Nexus_5X_API_28" />
     <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="io.github.manuelernesto.swoosh_app.Controller" />
+    </key>
     <key name="android.template.packageName">
+      <recent name="io.github.manuelernesto.swoosh_app.Controller" />
       <recent name="io.github.manuelernesto.swoosh_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Utilities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2514,7 +2490,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2595,6 +2571,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/SkiilActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_finish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/FinishActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -2606,12 +2620,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#44#152#0" expanded="true" />
+            <element signature="e#55#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2620,9 +2634,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-          <folding>
-            <element signature="e#2085#4073#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2644,21 +2656,19 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-          <folding>
-            <element signature="e#2085#4073#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#44#152#0" expanded="true" />
+            <element signature="e#55#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2674,12 +2684,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#44#152#0" expanded="true" />
+            <element signature="e#55#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2688,9 +2698,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-          <folding>
-            <element signature="e#2085#4073#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2755,28 +2763,32 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/BaseActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#44#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/SkiilActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="541">
+          <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_finish.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_skiil.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -2784,35 +2796,78 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_league.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="e#2085#4073#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/LeagueActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Model/Player.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <element signature="e#44#123#0" expanded="true" />
+            <element signature="e#50#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Utilities/Constantes.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/BaseActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/FinishActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#44#152#0" expanded="true" />
+            <element signature="e#55#386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/SkiilActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#55#207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/github/manuelernesto/swoosh_app/Controller/LeagueActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#382#0" expanded="true" />
+            <element signature="e#1054#1173#0" expanded="false" />
+            <element signature="e#1366#1485#0" expanded="false" />
           </folding>
         </state>
       </provider>
